@@ -193,12 +193,14 @@ data.table::fwrite(m_fnl_2, "data/osrm_table/tract2tract_dist_time_2.csv")
 data.table::fwrite(m_fnl_3, "data/osrm_table/tract2tract_dist_time_3.csv")
 data.table::fwrite(m_fnl_4, "data/osrm_table/tract2tract_dist_time_4.csv")
 data.table::fwrite(m_fnl_5, "data/osrm_table/tract2tract_dist_time_5.csv")
+data.table::fwrite(m_fnl_6, "data/osrm_table/tract2tract_dist_time_6.csv")
 
 zip::zip("data/tract2tract_dist_time_2020/tract2tract_dist_time_1.zip", "data/osrm_table/tract2tract_dist_time_1.csv")
 zip::zip("data/tract2tract_dist_time_2020/tract2tract_dist_time_2.zip", "data/osrm_table/tract2tract_dist_time_2.csv")
 zip::zip("data/tract2tract_dist_time_2020/tract2tract_dist_time_3.zip", "data/osrm_table/tract2tract_dist_time_3.csv")
 zip::zip("data/tract2tract_dist_time_2020/tract2tract_dist_time_4.zip", "data/osrm_table/tract2tract_dist_time_4.csv")
 zip::zip("data/tract2tract_dist_time_2020/tract2tract_dist_time_5.zip", "data/osrm_table/tract2tract_dist_time_5.csv")
+zip::zip("data/tract2tract_dist_time_2020/tract2tract_dist_time_6.zip", "data/osrm_table/tract2tract_dist_time_6.csv")
 
 
 # gridll <- expand.grid(va_tracts_centroids_2020$latlons, va_tracts_centroids_2020$latlons)
